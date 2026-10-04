@@ -9,6 +9,10 @@ Downloads blueprints and other info from factoriobin.com
 - Saves the blueprint string to paste into the game inside `blueprint.txt`
 - Saves the rendered image into `render.jpg`
 
+## Scrits
+- `factoriobin.py`: - OLD but reliable it-just-works. Downloads and shows errors.
+- `factoriobin_v2.py`: **USE THIS VERSION** to download books inside books. Checks if there is a 404-file-not-found error and skips the lost image/design.
+
 ## How to use it
 1. Find a design, a book or a collection (book of books of blueprints) and copy it's URL
 2. Run it with:
