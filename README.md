@@ -36,7 +36,7 @@ python factoriobin.py https://factoriobin.com/post/demo
 
 It's also possible to bulk download multiple blueprints, books or collections by appending more URLs:
 ```
-python factoriobin.py https://factoriobin.com/post/demo https://factoriobin.com/post/cgn0od
+python factoriobin.py <URL1> <URL2> <...>
 ```
 
 ## File structure
