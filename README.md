@@ -4,6 +4,8 @@ Downloads blueprints and other info from factoriobin.com
 
 
 ## Features
+- Works on Linux, Windows or macOS, you must have the `requests` dependency and Python installed.
+
 - Creates a `backup.html` file with the books, collections and designs while keeping the hierarchy of content.
 - Stores metadata (creation date, game minimum version, posted-by/author, ...)
 - Saves the blueprint string to paste into the game inside `blueprint.txt`
@@ -14,8 +16,10 @@ Downloads blueprints and other info from factoriobin.com
 - `factoriobin_v2.py`: **USE THIS VERSION** to download books inside books. Checks if there is a 404-file-not-found error and skips the lost image/design.
 
 ## How to use it
-1. Find a design, a book or a collection (book of books of blueprints) and copy it's URL
-2. Run it with:
+0. Install [python 3](https://www.python.org/downloads/)
+1. Install dependencies: `pip install requests`
+3. Find a design, a book or a collection (book of books of blueprints) and copy it's URL. If a URL ends with `/<number`, remove the `/<number>` (ex: https://factoriobin.com/post/cgn0od/1 -> https://factoriobin.com/post/cgn0od). Don't remove it if you want to download the full collection instead of just a design
+4. Run it with:
 
 ```
 python factoriobin.py <URL>
