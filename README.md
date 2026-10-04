@@ -69,3 +69,5 @@ python factoriobin.py <URL1> <URL2> <...>
 
 ## License
 Licensed under GPL v3. GG and Thanks to [Wube Software](https://www.factorio.com/) for this amazing game and to [FactorioBin](https://factoriobin.com/about) for hosting the API.
+
+I made this because i wanted to save old pre-1.0 blueprints from my own creation and from different YT channels without relying on websites that can just remove content or shut their service, so having an offline copy is always a good idea. The HTML menu file is a nice way to see in a non-txt way the strings and the screenshot/render.
